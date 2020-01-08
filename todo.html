@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap for CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- To get icons froms Fontawsome -->
+  <script src="https://kit.fontawesome.com/00e65d957f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>W&T &hearts;</title>
+</head>
+
+<body>
+  <!-- ToDo app -->
+  <div class="container">
+    <!-- Bootstrap to center the text -->
+    <header class="text-center text-light my-4">
+      <h1 class="mb-4">ToDo <span class="logo">&hearts;</span></h1>
+    </header>
+    <!-- List of tasks todo-->
+    <main>
+      <ul class="list-group todos mx-auto text-light">
+        <!-- Bootstrap (CSS - flexbox)-->
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>Handla mjölk</span>
+          <!--Trash icon from Fontawsome-->
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>Beställa julklappar</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>Ringa resebyrån</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+      </ul>
+    </main>
+    <!-- Add new task to list-->
+    <section>
+      <form class="add text-center my-4">
+        <input class="form-control m-auto" type="text" name="add" placeholder="Lägg till en todo..." />
+      </form>
+    </section>
+
+  </div>
+  <script src="script/tscript.js"></script>
+</body>
+
+</html>

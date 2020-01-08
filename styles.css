@@ -1,0 +1,42 @@
+body{
+  background: #343a40;
+}
+.container{
+  max-width: 400px;
+  padding-top: 20px;
+}
+.logo {
+  color: #ffc0cb;
+}
+input[type=text],
+input[type=text]:focus{
+  color: #484d53;
+  border: none;
+  background: #CCD1D1 ;
+  max-width: 400px;
+}
+/* WEATHER */
+.card{
+  margin-top: 40px;
+  border: none;
+}
+.icon{
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+/* TODO */
+ul{
+  margin-top: 45px;
+}
+.todos li{
+  background: #45b4c6;
+  margin-top: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+.delete{
+  cursor: pointer;
+}
